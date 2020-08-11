@@ -17,10 +17,8 @@ limitations under the License.
 
 @use '@material/radio/mixins' as radio-mixins;
 @use '@material/radio/variables' as radio-variables;
-@use '@material/ripple';
 
-@include radio-mixins.core-styles();
-@include ripple.common();
+@include radio-mixins.without-ripple();
 
 :host {
   display: inline-block;
