@@ -110,11 +110,19 @@ to associate an interactive label with the switch.
 
 ### CSS Custom Properties
 
-| Name | Default | Description
-| ----------------------- | -------------------------------------- | ---
-| `--mdc-theme-surface` | ![](images/color_ffffff.png) `#ffffff` | Fill color of the thumb head when unchecked.
-| `--mdc-theme-on-surface` | ![](images/color_000000.png) `#000000` | 38% fill color of the track when unchecked.
-| `--mdc-theme-secondary` | ![](images/color_018786.png) `#018786` | Fill color of the thumb head and 38% fill color of the track when checked.
+There are no CSS Custom Properties for this specific component.
+
+#### Global Custom Properties
+
+This component exposes the following global [theming](https://github.com/material-components/material-components-web-components/blob/master/docs/theming.md)
+custom properties.
+
+| Name                                 | Description
+| ------------------------------------ | -----------
+| `--mdc-theme-surface`                | Fill color of the thumb head when unchecked.
+| `--mdc-theme-on-surface`             | 38% fill color of the track when unchecked.
+| `--mdc-theme-secondary`              | Fill color of the thumb head and 38% fill color of the track when checked.
+
 
 Also inherits styles from [ripple](https://github.com/material-components/material-components-web-components/tree/master/packages/ripple)
 

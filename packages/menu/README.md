@@ -296,13 +296,21 @@ propagate through `mwc-menu`.
 
 | Name                     | Default | Description
 | ------------------------ | ------- |------------
-| `--mdc-shape-medium`     | `4px`   | Border radius of the dropdown.
 | `--mdc-menu-item-height` | `48px`  | Height of single-line list-items in the menu.
 | `--mdc-menu-min-width`   | `auto`  | Menu min-width.
 | `--mdc-menu-max-width`   | `auto`  | Menu max-width.
 | `--mdc-menu-max-height`  | `calc(100vh - 32px)` and content height | Menu max height.
 | `--mdc-menu-z-index`     | `8`     | Z-index of the popup menu surface.
-| `--mdc-theme-surface`    | ![](images/color_fff.png) `#fff` | Color of the menu surface.
+
+#### Global Custom Properties
+
+This component exposes the following global [theming](https://github.com/material-components/material-components-web-components/blob/master/docs/theming.md)
+custom properties.
+
+| Name                                 | Description
+| ------------------------------------ | -----------
+| `--mdc-theme-surface`                | Color of the menu surface.
+| `--mdc-shape-medium`                 | Border radius of the dropdown.
 
 `mwc-menu` internally uses
 [`mwc-list`](https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties),

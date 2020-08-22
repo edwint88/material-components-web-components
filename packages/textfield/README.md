@@ -184,8 +184,6 @@ Inherits CSS Custom properties from:
 
 | Name                                              | Default               | Description
 | ------------------------------------------------- | --------------------- |------------
-| `--mdc-theme-primary`                             | `#6200ee`             | Color when active of the underline ripple, the outline, and the caret.
-| `--mdc-theme-error`                               | `#b00020`             | Color when errored of the underline, the outline, the caret, and the icons.
 | `--mdc-text-field-filled-border-radius`           | `4px 4px 0 0`         | Border radius of the standard / filled textfield's background filling.
 | `--mdc-text-field-idle-line-color`                | `rgba(0, 0, 0, 0.42)` | Color of the filled textfield's bottom line when idle.
 | `--mdc-text-field-hover-line-color`               | `rgba(0, 0, 0, 0.87)` | Color of the filled textfield's bottom line when hovering.
@@ -198,6 +196,16 @@ Inherits CSS Custom properties from:
 | `--mdc-text-field-ink-color`                      | `rgba(0, 0, 0, 0.87)` | Color of the input text.
 | `--mdc-text-field-label-ink-color`                | `rgba(0, 0, 0, 0.6)`  | Color of the non-focused floating label, helper text, char counter, and placeholder.
 | `--mdc-text-field-disabled-ink-color`             | `rgba(0, 0, 0, 0.37)` | Color of the input text, the floating label, helper text, char counter, and placeholder of a disabled textfield.
+
+#### Global Custom Properties
+
+This component exposes the following global [theming](https://github.com/material-components/material-components-web-components/blob/master/docs/theming.md)
+custom properties.
+
+| Name                 | Description
+| -------------------- | -----------
+`--mdc-theme-primary`  | Color when active of the underline ripple, the outline, and the caret.
+`--mdc-theme-error`    | Color when errored of the underline, the outline, the caret, and the icons.
 
 ### Validation
 

@@ -101,9 +101,17 @@ None
 
 | Name                                         | Default                                | Description
 | -------------------------------------------- | -------------------------------------- |------------
-| `--mdc-theme-primary`                        | ![](images/color_6200ee.png) `#6200EE` | Sets the color of primary progress bar.
 | `--mdc-linear-progress-buffer-color`         | ![](images/color_e6e6e6.png) `#E6E6E6` | Sets the color of the buffer progress bar.<br> **NOTE:** to change the color of the buffering dots, you must do so in the image of `--mdc-linear-progress-buffering-dots-image`.
 | `--mdc-linear-progress-buffering-dots-image` | `url("<svg data url>")` (see below for value) | Sets the image to use as the buffering dots. This pattern is then repeated horizontally and animated.
+
+#### Global Custom Properties
+
+This component exposes the following global [theming](https://github.com/material-components/material-components-web-components/blob/master/docs/theming.md)
+custom properties.
+
+| Name                                 | Description
+| ------------------------------------ | -----------
+| `--mdc-theme-primary`                | Sets the color of primary progress bar.
 
 Default value for `--mdc-linear-progress-buffering-dots-image`:
 

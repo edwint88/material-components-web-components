@@ -130,9 +130,18 @@ to associate an interactive label with the radio.
 
 | Name                    | Default                                | Description
 | ----------------------- | -------------------------------------- |------------
-| `--mdc-theme-secondary` | ![](images/color_018786.png) `#018786` | Color of the radio button.
 | `--mdc-radio-unchecked-color` | ![](images/color_0,0,0,54.png) `rgba(0, 0, 0, 0.54)` | Color of the ring of an unchecked radio.
 | `--mdc-radio-disabled-color` | ![](images/color_0,0,0,38.png) `rgba(0, 0, 0, 0.38)` | Color of the ring and circle of a disabled radio.
+
+#### Global Custom Properties
+
+This component exposes the following global [theming](https://github.com/material-components/material-components-web-components/blob/master/docs/theming.md)
+custom properties.
+
+| Name                                 | Description
+| ------------------------------------ | -----------
+| `--mdc-theme-secondary`              | Color of the radio button.
+
 
 ## Additional references
 

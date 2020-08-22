@@ -158,9 +158,19 @@ For technical details about the Material Icons font, see the
 
 | Name | Default | Description
 | ---- | ------- | -----------
-| `--mdc-icon-font` | [`Material Icons`](https://material.io/resources/icons/) | Font that supports *ligatures* and determines which icons are available (see [fonts](#fonts) above).
-| `--mdc-theme-text-disabled-on-light` | `rgba(0, 0, 0, 0.38)` | Color of icon when `disabled` is `true`
-| `--mdc-icon-button-ripple-opacity` | `0.12` | Opacity of the ripple on the icon button
+| `--mdc-icon-button-ripple-opacity` | `0.12` | Opacity of the ripple on the icon button.
+
+#### Global Custom Properties
+
+This component exposes the following global [theming](https://github.com/material-components/material-components-web-components/blob/master/docs/theming.md)
+custom properties.
+
+| Name                                 | Description
+| ------------------------------------ | -----------
+| `--mdc-icon-font`                    | Font that supports *ligatures* and determines which icons are available (see [fonts](#fonts) above).
+| `--mdc-theme-text-disabled-on-light` | Color of icon when `disabled` is `true`.
+| `--mdc-theme-on-secondary`           | Foreground color of the label and icon.
+
 
 ## Additional references
 
