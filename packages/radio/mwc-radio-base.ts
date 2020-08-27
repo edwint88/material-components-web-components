@@ -20,7 +20,7 @@ import {ripple} from '@material/mwc-ripple/ripple-directive';
 import {MDCRadioAdapter} from '@material/radio/adapter';
 import MDCRadioFoundation from '@material/radio/foundation';
 import {html, property, query} from 'lit-element';
-import {SingleSelectionController} from './single-selection-controller';
+import {SingleSelectionController} from '@material/mwc-radio/single-selection-controller';
 
 /**
  * @fires checked
